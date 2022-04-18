@@ -1,0 +1,25 @@
+h1 {
+  color: red;
+}
+img {
+  width: 400px;
+  height: 300px;
+}
+#thirdDiv {
+  height: 600px;
+  width: 500px;
+  background-color: blue;
+  padding: 50px;
+  border: solid 10px red;
+}
+#spanId {
+  margin: 50px;
+}
+
+body {
+  background-image: url("https://www.muycomputer.com/wp-content/uploads/2019/12/Fondos-de-escritorio-para-Windows-10.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

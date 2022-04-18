@@ -1,0 +1,29 @@
+#cuerpo {
+    display: flex;
+    flex-direction: row;
+    background-color:beige;
+}
+#columna1 {
+    display: flex;
+    flex-direction: column;
+}
+
+#columna2 {
+    display: flex;
+    flex-direction: column;
+}
+
+#columna3 {
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    width: 400px;
+    height: fit-content;
+}
+h1,h2,h3 {
+    color: brown;
+}
+
+
