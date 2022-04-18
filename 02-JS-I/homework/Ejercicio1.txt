@@ -1,0 +1,56 @@
+
+Variables: 
+Son la forma de almacenar un valor de algo para usar más adelante.
+Para crear una variable usaremos la palabra reservada: var. 
+Luego le daremos un nombre "name1", por ejemplo y finalmente 
+utilizando el signo = le asignaremos el valor.
+Entonces el ejemplo sería:
+var name1 = Ignacio
+Así declaramos a name1 el valor de Ignacio.
+Hay 3 tipos de variales: var, let y const.
+Const, a diferencia de las 2 anteriores no puede ser modificada. En cambio,
+var y let pueden modificarse. 
+Podemos establecer: let name1 = Juan.
+No así si hubieramos usado: const name1 = Ignacio
+
+Strings:
+El string es un tipo de dato que contiene unicamente texto. Siempre usamos las "" o '' para contenerlo.
+
+Funciones:
+Las funciones son objetos. Se construyen de 3 formas. Comenzaremos con la palabra function, el nombre, 
+luego parentesis () para los argumentos y corchetas el código a ejecutar {}.
+function ejemplo () {}
+Entre los parentesis, las funciones pueden usar argumentos, si usamos una variable entre los () podremos usar esa variable en el codigo de nuestra funcion.
+name = Roberto
+function saludo (a) { 
+    console.log('Hola ' + a)
+}
+saludo(name)
+Nos devolverá: Hola Roberto
+
+Las { } funcionan como un scope, es un segmento de código del que no puedo tomar valores, a menos que los enuncie con un return.
+function suma (a,b) {
+    var suma = a+b
+    return suma
+}
+suma(2,5)
+console.log(suma)
+
+Podemos usar las funciones para hacer un CONTROL de FLUJO.
+Cuando queremos que suceda algo solo si otra cosa sucede antes.
+Para eso tenemos el IF.
+
+function ejemplo (edad) {
+    if (edad>18) {
+        return true;
+    }
+    return false;
+}
+
+ejemplo(21);
+Nos devuelve true.
+
+
+True y False son valores booleanos, palabras reservadas que nos indican si algo es verdadero o falso.
+De manera predeterminada, los valores se presentan como true.
+Funcionan perfectamente como valores de encedido o apagado. Si o no.
