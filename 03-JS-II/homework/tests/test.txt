@@ -1,0 +1,43 @@
+1.
+FOR:
+Los "for" son utlizados para que el software ejectute el código repetidas veces
+hasta que la condicion en el ( ) deje de ser "true".
+Tiene una sintáxis particular que consta de variable, condicion y comportamiento.
+for (let i = 0 ; i<10; i++) {
+    console.log(i)
+}
+Entonces tenemos un bucle que contiene un:
+variable: i que es igual a 0.
+condicion: el bucle se ejecutará siempre que el valor de i sea menor a 10.
+comportamiento: incrementar en 1 el valor de i.
+
+
+
+Operadores lógicos:
+
+Cuando utilizamos controladores de flujo, como el "if", dentro del ()
+establecemos las condiciones en las que queremos que se ejecute el código.
+Muchas veces puede suceder por varias opciones o es necesario que ocurran
+varias circunstancias, para esto usamos:
+
+&: El operador "y", se utiliza escrbiendo && y significa que las 2 condiciones
+de{l ( ) del "if" deben ser "true" para que se ejecute el código en las {}.
+if (5<7 && 7<10) {
+
+    console.log("Código)
+}
+
+||: El operador "o", se utiliza escribiendo || y significa que cualquiera
+de las 2 condiciones dentro del () del "if" puede ser "true" 
+para que se ejecute el código en las {}.
+if (10<100 || 10=<10) {
+
+    console.log("Código)
+}
+
+!: El operador "no", se utiliza escribiendo ! y significa que la condicion 
+en el ( ) no debe suceder para que se ejecute el código dentro de las { }.
+if (!8<7) {
+
+    console.log("Código)
+}
