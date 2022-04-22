@@ -1,0 +1,25 @@
+Los arrays son una colección de datos. Funcionan muy similares a una lista. Construir un array es simple, 
+declarar una variable y establecerla en [], luego podemos agregar al contenedor (separadas por coma) tantas strings, 
+números o booleanos como queramos y acceder a esos elementos cuando lo deseemos.
+Por ejemplo:
+var arrayEjemplo = ["Ignacio" , "Elisa" , "Candelaria"]
+
+En este caso, tenemos un array que contiene estos 3 datos tipo string. Cada dato posee un indice, que es el numero
+que se le atribuye al orden del array. Los arrays siempre comienzan desde 0. Entonces:
+Ignacio tiene el indice 0
+Elisa tiene el indice 1
+Candelaria tiene el indice 2.
+
+Los arrays son objetos que poseen métodos para manipularse, ejemplos:
+
+length: devolverá el número de elementos. console.log(arrayEjemplo.length) // 3
+push: agrega un elemento al final. arrayEjemplo.push("Maria") // Agrega Maria al final.
+pop: elimina el ultimo elemento. arrayEjemplo.pop() // Elimina a Maria del array.
+unshift: agrega un elemento al inicio. arrayEjemplo.unshift("Federico") // Agregar Federico en el indice 0.
+shift: elimina un elemento al inicio. arrayEjemplo.shift() // Elimina Federico del indice 0.
+
+
+
+
+
+
